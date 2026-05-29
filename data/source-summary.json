@@ -1,17 +1,17 @@
 {
-  "scrapedAt": "2026-05-21T14:41:39.724Z",
+  "scrapedAt": "2026-05-29T13:25:18.550Z",
   "siteUrl": "https://www.meigen.ai/",
   "browserScrollLatestCount": 0,
-  "imagePromptCount": 2841,
-  "videoPromptCount": 127,
-  "allPromptCount": 2968,
-  "assetTaskCount": 5365,
+  "imagePromptCount": 2940,
+  "videoPromptCount": 135,
+  "allPromptCount": 3075,
+  "assetTaskCount": 5556,
   "downloadSummary": {
-    "completed": 5365,
-    "downloaded": 158,
-    "skipped": 5207,
+    "completed": 5556,
+    "downloaded": 296,
+    "skipped": 5260,
     "failed": 0,
-    "bytes": 32392587,
+    "bytes": 232097300,
     "failures": []
   },
   "files": {

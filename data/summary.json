@@ -1,36 +1,36 @@
 {
-  "builtAt": "2026-05-21T14:41:54.326Z",
+  "builtAt": "2026-05-29T13:26:25.495Z",
   "sourceDir": "E:\\image-garllery-wesite\\meigen_export",
   "rawBase": "https://raw.githubusercontent.com/mrslimslim/awesome-prompt/main",
   "quality": 76,
   "maxDimension": 1280,
-  "promptCount": 2968,
-  "imagePromptCount": 2841,
-  "videoPromptCount": 127,
-  "assetCount": 5365,
+  "promptCount": 3075,
+  "imagePromptCount": 2940,
+  "videoPromptCount": 135,
+  "assetCount": 5556,
   "compression": {
-    "completed": 5365,
+    "completed": 5556,
     "failed": 0,
-    "skipped": 5207,
-    "sourceBytes": 930303216,
-    "outputBytes": 476276492,
-    "savedBytes": 454026724,
-    "outputRatio": 0.512
+    "skipped": 5260,
+    "sourceBytes": 1142370211,
+    "outputBytes": 498124596,
+    "savedBytes": 644245615,
+    "outputRatio": 0.436
   },
   "sourceSummary": {
-    "scrapedAt": "2026-05-21T14:41:39.724Z",
+    "scrapedAt": "2026-05-29T13:25:18.550Z",
     "siteUrl": "https://www.meigen.ai/",
     "browserScrollLatestCount": 0,
-    "imagePromptCount": 2841,
-    "videoPromptCount": 127,
-    "allPromptCount": 2968,
-    "assetTaskCount": 5365,
+    "imagePromptCount": 2940,
+    "videoPromptCount": 135,
+    "allPromptCount": 3075,
+    "assetTaskCount": 5556,
     "downloadSummary": {
-      "completed": 5365,
-      "downloaded": 158,
-      "skipped": 5207,
+      "completed": 5556,
+      "downloaded": 296,
+      "skipped": 5260,
       "failed": 0,
-      "bytes": 32392587,
+      "bytes": 232097300,
       "failures": []
     },
     "files": {
@@ -42,5 +42,5 @@
       "videoThumbDir": "E:\\image-garllery-wesite\\meigen_export\\video-thumbnails"
     }
   },
-  "dataSha256": "82d0ffe1d0847f7411f2cabace82b538e193ad3c15d26b5bd2edf4495c2a8414"
+  "dataSha256": "123c53406c3ee791e3d584c1a4f4b830398879c74a5117f5a2de35824f8ef5dc"
 }
