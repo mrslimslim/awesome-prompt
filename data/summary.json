@@ -1,46 +1,65 @@
 {
-  "builtAt": "2026-05-29T13:26:25.495Z",
-  "sourceDir": "E:\\image-garllery-wesite\\meigen_export",
+  "builtAt": "2026-06-06T11:20:00.884Z",
+  "sourceDir": "E:\\image-garllery-wesite\\meigen_export_merged_20260606",
   "rawBase": "https://raw.githubusercontent.com/mrslimslim/awesome-prompt/main",
   "quality": 76,
   "maxDimension": 1280,
-  "promptCount": 3075,
-  "imagePromptCount": 2940,
-  "videoPromptCount": 135,
-  "assetCount": 5556,
+  "promptCount": 3441,
+  "imagePromptCount": 3302,
+  "videoPromptCount": 139,
+  "assetCount": 6116,
   "compression": {
-    "completed": 5556,
+    "completed": 6116,
     "failed": 0,
-    "skipped": 5260,
-    "sourceBytes": 1142370211,
-    "outputBytes": 498124596,
-    "savedBytes": 644245615,
-    "outputRatio": 0.436
+    "skipped": 6116,
+    "sourceBytes": 1973713418,
+    "outputBytes": 555402916,
+    "savedBytes": 1418310502,
+    "outputRatio": 0.2814
   },
   "sourceSummary": {
-    "scrapedAt": "2026-05-29T13:25:18.550Z",
+    "scrapedAt": "2026-06-06T11:14:18.094Z",
     "siteUrl": "https://www.meigen.ai/",
-    "browserScrollLatestCount": 0,
-    "imagePromptCount": 2940,
-    "videoPromptCount": 135,
-    "allPromptCount": 3075,
-    "assetTaskCount": 5556,
+    "browserScrollLatestCount": 2733,
+    "imagePromptCount": 3302,
+    "videoPromptCount": 139,
+    "allPromptCount": 3441,
+    "assetTaskCount": 6116,
     "downloadSummary": {
-      "completed": 5556,
-      "downloaded": 296,
-      "skipped": 5260,
+      "completed": 5200,
+      "downloaded": 560,
+      "skipped": 4640,
       "failed": 0,
-      "bytes": 232097300,
+      "bytes": 900455460,
       "failures": []
     },
     "files": {
-      "imageJsonPath": "E:\\image-garllery-wesite\\meigen_export\\prompts-images.json",
-      "videoJsonPath": "E:\\image-garllery-wesite\\meigen_export\\prompts-videos.json",
-      "allJsonPath": "E:\\image-garllery-wesite\\meigen_export\\prompts-all.json",
-      "csvPath": "E:\\image-garllery-wesite\\meigen_export\\prompts-all.csv",
-      "imageDir": "E:\\image-garllery-wesite\\meigen_export\\images",
-      "videoThumbDir": "E:\\image-garllery-wesite\\meigen_export\\video-thumbnails"
+      "imageJsonPath": "E:\\image-garllery-wesite\\meigen_export_merged_20260606\\prompts-images.json",
+      "videoJsonPath": "E:\\image-garllery-wesite\\meigen_export_merged_20260606\\prompts-videos.json",
+      "allJsonPath": "E:\\image-garllery-wesite\\meigen_export_merged_20260606\\prompts-all.json",
+      "csvPath": "E:\\image-garllery-wesite\\meigen_export_merged_20260606\\prompts-all.csv",
+      "imageDir": "E:\\image-garllery-wesite\\meigen_export_merged_20260606\\images",
+      "videoThumbDir": "E:\\image-garllery-wesite\\meigen_export_merged_20260606\\video-thumbnails"
+    },
+    "mergedArchive": {
+      "mergedAt": "2026-06-06T11:19:53.072Z",
+      "previousBuiltAt": "2026-05-29T13:26:25.495Z",
+      "previousPromptCount": 3075,
+      "currentScrapedPromptCount": 2924,
+      "currentDisplayablePromptCount": 2922,
+      "noAssetPromptCount": 2,
+      "noAssetPromptIds": [
+        "community_4ebcc069-0488-44ce-9f16-6dc04ab0bb9b",
+        "community_a1200362-fae9-46e0-b2ed-382c9fa517ff"
+      ],
+      "overlapPromptCount": 2556,
+      "addedPromptCount": 366,
+      "addedImagePromptCount": 362,
+      "addedVideoPromptCount": 4,
+      "carriedOverPromptCount": 519,
+      "carriedOverImagePromptCount": 519,
+      "carriedOverVideoPromptCount": 0
     }
   },
-  "dataSha256": "123c53406c3ee791e3d584c1a4f4b830398879c74a5117f5a2de35824f8ef5dc"
+  "dataSha256": "3e7c9b1105b5ef3bb867246d03a9c672e116ccf08ba4a69d567d654408a60941"
 }
