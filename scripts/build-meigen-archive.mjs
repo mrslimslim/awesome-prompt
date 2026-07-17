@@ -80,6 +80,10 @@ function outputAssetRelativePath(item, index) {
   return `images/${item.id}/${index}.webp`;
 }
 
+function assetMapKey(item) {
+  return `${item.sourceCollection}:${item.id}`;
+}
+
 async function compressOne(task) {
   const sourceSize = await fileSize(task.sourcePath);
   await mkdir(path.dirname(task.outputPath), { recursive: true });
@@ -143,7 +147,7 @@ async function runPool(tasks) {
 }
 
 function normalizeItem(item, assetMap) {
-  const cdnImages = assetMap.get(item.id) ?? [];
+  const cdnImages = assetMap.get(assetMapKey(item)) ?? [];
   const next = {
     ...item,
     localImages: cdnImages,
@@ -239,8 +243,9 @@ async function main() {
 
       const outputRelativePath = outputAssetRelativePath(item, asset.index);
       const outputPath = path.join(outputDir, outputRelativePath.replace(/\//g, path.sep));
-      if (!assetMap.has(item.id)) assetMap.set(item.id, []);
-      assetMap.get(item.id).push(outputRelativePath);
+      const mapKey = assetMapKey(item);
+      if (!assetMap.has(mapKey)) assetMap.set(mapKey, []);
+      assetMap.get(mapKey).push(outputRelativePath);
       tasks.push({
         id: item.id,
         sourceRelativePath: asset.relativePath,
